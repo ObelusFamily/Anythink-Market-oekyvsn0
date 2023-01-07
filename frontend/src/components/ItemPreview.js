@@ -54,7 +54,7 @@ const ItemPreview = (props) => {
               className="user-pic rounded-circle pr-1"
             />
           {item.seller.isVerified && <div>
-            <img src="/verified_seller.svg" alt="Top Seller" /> TOP SELLER
+            <img src="verified_seller.svg" alt="Top Seller" /> TOP SELLER
             </div>}
           </Link>
           <button className="btn btn-outline-secondary" onClick={handleClick}>
